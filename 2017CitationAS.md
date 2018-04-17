@@ -14,9 +14,7 @@
 
 ![l9NeE.png](https://s1.ax2x.com/2018/04/17/l9NeE.png)
 
-<center>
-<img src="https://s1.ax2x.com/2018/04/17/l9NeE.png" width="200">
-</center>
+
 
 ## Retrieval module
 
@@ -26,6 +24,8 @@ Use **Lucene** to index and retrieve dataset, and rank the results which are use
 
 ## Clustering Module
 
-使用**VSM**来表示每个引用的句子，用**TF-IDF**计算特征权重。
+- 使用**VSM**来表示每个引用的句子，用**TF-IDF**计算特征权重。得到的每个句子的表示为$\sum$
 
-> VSM : Vector Space Model
+  > VSM : Vector Space Model
+
+- 
