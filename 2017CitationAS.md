@@ -39,3 +39,9 @@ Use **Lucene** to index and retrieve dataset, and rank the results which are use
 - 所有类别按照其中包含句子的数量从多到少排序，然后每个类别都是最终Summary的一个段落，然后用两种方法来获取每个类别中的最重要的句子。
   - TF-IDF
   - MMR
+
+## Experimental
+
+- 使用Davies-Bouldin(DB)和SC来发现效果最好的Label generation算法
+- 使用20个搜索关键词和6个方法得到120篇Summary，每篇Summary的最终长度为其检索到的引用的数量*20%。
+- 找了一些志愿者来为每个段落安装以定规则打分，然后求各个方法的平均分
