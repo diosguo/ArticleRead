@@ -40,27 +40,7 @@ They use a graph-based approach to summarize articles, and employ coherence patt
 
 ## 3 方法 Method
 
-```mermaid
-graph TD
-A[Document Input]-->B(Extract Entity Graph)
-B-->|one-mode projection| C[Directed one-mode Graph Of Sentences]
-B-.->|one-mode projection| C
-D[PubMed corpus]-.->B
-C-->H
-C-->I
-H(Importance)-->|*LambdaI|G
-I(Non-Redundancy)-->|*LambdaR|G
-
-G(Calculate the Score)
-C-->J
-E-->J
-J-->G
-C-.->E[Coherent Patterns]
-J[Coherent Graph]
-E-.-F[Normalized Weight]
-F-->G
-
-```
+![89dpY.png](https://s1.ax2x.com/2018/04/22/89dpY.png)
 
 ### 3.0 预处理
 
