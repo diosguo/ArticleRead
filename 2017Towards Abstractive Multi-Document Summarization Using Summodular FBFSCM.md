@@ -1,4 +1,4 @@
-2017Towards Abstractive Multi-Document Summarization Using Summodular Funciton-Based Framework,Sentence Compression and Merging
+2017 	IJCAI Towards Abstractive Multi-Document Summarization Using Summodular Funciton-Based Framework,Sentence Compression and Merging
 
 > Toward abstractive multi-document summarization using submodular function-based framework, sentence compression and merging
 > MM Tanvee - 2016 - 被引量: 0
